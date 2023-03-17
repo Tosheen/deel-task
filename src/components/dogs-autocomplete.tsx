@@ -11,7 +11,7 @@ export const DogsAutocomplete = () => {
   const { value, onChange, items, highlightedIndex, makeSelection, onKeyUp } =
     useAutocomplete(
       {
-        minChars: 2,
+        minChars: 3,
         onSelectionChange: (searchKey) => {
           setBreed(searchKey);
         },
@@ -45,12 +45,45 @@ export const DogsAutocomplete = () => {
                     makeSelection(item);
                   }}
                 >
-                  {item}
+                  <ItemLabel item={item} needle={value} />
                 </button>
               </li>
             );
           })}
       </ul>
     </div>
+  );
+};
+
+type ItemLabelProps = {
+  item: string;
+  needle: string;
+};
+
+const ItemLabel = (props: ItemLabelProps) => {
+  const highlightedPart = props.item
+    .toLowerCase()
+    .indexOf(props.needle.toLowerCase());
+
+  const shouldBeHighligthed = highlightedPart > -1;
+
+  if (shouldBeHighligthed === false) {
+    return <span>{props.item}</span>;
+  }
+
+  const prefix = props.item.substring(0, highlightedPart);
+  const suffix = props.item.substring(highlightedPart + props.needle.length);
+
+  const originalNeedle = props.item.substring(
+    highlightedPart,
+    highlightedPart + props.needle.length
+  );
+
+  return (
+    <span>
+      <span>{prefix}</span>
+      <strong>{originalNeedle}</strong>
+      <span>{suffix}</span>
+    </span>
   );
 };

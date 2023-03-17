@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 import "./App.css";
 
 import { DogsAutocomplete } from "./components/dogs-autocomplete";
@@ -7,7 +5,7 @@ import { DogsAutocomplete } from "./components/dogs-autocomplete";
 function App() {
   return (
     <div>
-      <h1>Autocomplete Example</h1>
+      <h1>Dog Breeds Autocomplete (try typing `Maltese` or `Pinscher`)</h1>
       <DogsAutocomplete />
     </div>
   );
