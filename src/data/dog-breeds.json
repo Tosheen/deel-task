@@ -1,0 +1,1479 @@
+[
+    {
+      "name": "Affenpinscher",
+      "weight": 8.5,
+      "size": "X-Small"
+    },
+    {
+      "name": "Biewer Terrier",
+      "weight": 6,
+      "size": "X-Small"
+    },
+    {
+      "name": "Bolognese",
+      "weight": 7.25,
+      "size": "X-Small"
+    },
+    {
+      "name": "Brussels Griffon",
+      "weight": 9,
+      "size": "X-Small"
+    },
+    {
+      "name": "Chihuahua",
+      "weight": 6,
+      "size": "X-Small"
+    },
+    {
+      "name": "Chinese Crested",
+      "weight": 10,
+      "size": "X-Small"
+    },
+    {
+      "name": "Chorkie",
+      "weight": 10,
+      "size": "X-Small"
+    },
+    {
+      "name": "Japanese Chin",
+      "weight": 9,
+      "size": "X-Small"
+    },
+    {
+      "name": "Maltese",
+      "weight": 7,
+      "size": "X-Small"
+    },
+    {
+      "name": "Toy Manchester Terrier",
+      "weight": 12,
+      "size": "X-Small"
+    },
+    {
+      "name": "Miniature Pinscher",
+      "weight": 9,
+      "size": "X-Small"
+    },
+    {
+      "name": "Papillon",
+      "weight": 7.5,
+      "size": "X-Small"
+    },
+    {
+      "name": "Pomeranian",
+      "weight": 5,
+      "size": "X-Small"
+    },
+    {
+      "name": "Pomapoo",
+      "weight": 10,
+      "size": "X-Small"
+    },
+    {
+      "name": "Toy Poodle",
+      "weight": 5,
+      "size": "X-Small"
+    },
+    {
+      "name": "Russian Toy",
+      "weight": 6.5,
+      "size": "X-Small"
+    },
+    {
+      "name": "Russian Tsvetnaya Bolonka",
+      "weight": 7.75,
+      "size": "X-Small"
+    },
+    {
+      "name": "Silky Terrier",
+      "weight": 10,
+      "size": "X-Small"
+    },
+    {
+      "name": "Toy Fox Terrier",
+      "weight": null,
+      "size": "X-Small"
+    },
+    {
+      "name": "Yorkshire Terrier",
+      "weight": 7,
+      "size": "X-Small"
+    },
+    {
+      "name": "Yorkipoo",
+      "weight": 10,
+      "size": "X-Small"
+    },
+    {
+      "name": "American Eskimo Dog",
+      "weight": 15,
+      "size": "Small"
+    },
+    {
+      "name": "American Hairless Terrier",
+      "weight": 14,
+      "size": "Small"
+    },
+    {
+      "name": "Australian Terrier",
+      "weight": 17.5,
+      "size": "Small"
+    },
+    {
+      "name": "Basenji",
+      "weight": 23,
+      "size": "Small"
+    },
+    {
+      "name": "Beagle",
+      "weight": 25,
+      "size": "Small"
+    },
+    {
+      "name": "Bedlington Terrier",
+      "weight": 20,
+      "size": "Small"
+    },
+    {
+      "name": "Bichon Frise",
+      "weight": 15,
+      "size": "Small"
+    },
+    {
+      "name": "Border Terrier",
+      "weight": 13.5,
+      "size": "Small"
+    },
+    {
+      "name": "Boston Terrier",
+      "weight": 18.5,
+      "size": "Small"
+    },
+    {
+      "name": "Cairn Terrier",
+      "weight": 13.5,
+      "size": "Small"
+    },
+    {
+      "name": "Cardigan Welsh Corgi",
+      "weight": 31.5,
+      "size": "Small"
+    },
+    {
+      "name": "Cavalier King Charles Spaniel",
+      "weight": 15.5,
+      "size": "Small"
+    },
+    {
+      "name": "Cesky Terrier",
+      "weight": 19,
+      "size": "Small"
+    },
+    {
+      "name": "Cavachon",
+      "weight": 25,
+      "size": "Small"
+    },
+    {
+      "name": "Cocker Spaniel",
+      "weight": 25,
+      "size": "Small"
+    },
+    {
+      "name": "Cockapoo",
+      "weight": 20,
+      "size": "Small"
+    },
+    {
+      "name": "Coton de Tulear",
+      "weight": 11.5,
+      "size": "Small"
+    },
+    {
+      "name": "Dachshund",
+      "weight": 21.5,
+      "size": "Small"
+    },
+    {
+      "name": "Dandie Dinmont Terrier",
+      "weight": 21,
+      "size": "Small"
+    },
+    {
+      "name": "Danish-Swedish Farmdog",
+      "weight": 17.5,
+      "size": "Small"
+    },
+    {
+      "name": "English Toy Spaniel",
+      "weight": 11,
+      "size": "Small"
+    },
+    {
+      "name": "French Bulldog",
+      "weight": 28,
+      "size": "Small"
+    },
+    {
+      "name": "German Spitz",
+      "weight": 25,
+      "size": "Small"
+    },
+    {
+      "name": "Glen of Imaal Terrier",
+      "weight": 36,
+      "size": "Small"
+    },
+    {
+      "name": "Havanese",
+      "weight": 10,
+      "size": "Small"
+    },
+    {
+      "name": "Italian Greyhound",
+      "weight": 10.5,
+      "size": "Small"
+    },
+    {
+      "name": "Jagdterrier",
+      "weight": 19.5,
+      "size": "Small"
+    },
+    {
+      "name": "Japanese Terrier",
+      "weight": 23,
+      "size": "Small"
+    },
+    {
+      "name": "Lakeland Terrier",
+      "weight": 17,
+      "size": "Small"
+    },
+    {
+      "name": "Lancashire Heeler",
+      "weight": 13,
+      "size": "Small"
+    },
+    {
+      "name": "Lhasa Apso",
+      "weight": 15,
+      "size": "Small"
+    },
+    {
+      "name": "Lowchen",
+      "weight": 15,
+      "size": "Small"
+    },
+    {
+      "name": "Maltipoo",
+      "weight": 15,
+      "size": "Small"
+    },
+    {
+      "name": "Standard Manchester Terrier",
+      "weight": 17,
+      "size": "Small"
+    },
+    {
+      "name": "Miniature Bull Terrier",
+      "weight": 23,
+      "size": "Small"
+    },
+    {
+      "name": "Miniature Schnauzer",
+      "weight": 15.5,
+      "size": "Small"
+    },
+    {
+      "name": "Norfolk Terrier",
+      "weight": 11.5,
+      "size": "Small"
+    },
+    {
+      "name": "Norrbottenspets",
+      "weight": 25,
+      "size": "Small"
+    },
+    {
+      "name": "Norwegian Lundehund",
+      "weight": 25,
+      "size": "Small"
+    },
+    {
+      "name": "Norwich Terrier",
+      "weight": 12,
+      "size": "Small"
+    },
+    {
+      "name": "Parson Russell Terrier",
+      "weight": 15,
+      "size": "Small"
+    },
+    {
+      "name": "Pekingese",
+      "weight": 14,
+      "size": "Small"
+    },
+    {
+      "name": "Pembroke Welsh Corgi",
+      "weight": 29,
+      "size": "Small"
+    },
+    {
+      "name": "Peruvian Inca Orchid",
+      "weight": 13,
+      "size": "Small"
+    },
+    {
+      "name": "Miniature Poodle",
+      "weight": 12.5,
+      "size": "Small"
+    },
+    {
+      "name": "Potuguese Podengo Pequeno",
+      "weight": 11,
+      "size": "Small"
+    },
+    {
+      "name": "Pomsky",
+      "weight": 25,
+      "size": "Small"
+    },
+    {
+      "name": "Pug",
+      "weight": 16,
+      "size": "Small"
+    },
+    {
+      "name": "Puggle",
+      "weight": 25,
+      "size": "Small"
+    },
+    {
+      "name": "Pumi",
+      "weight": 25.5,
+      "size": "Small"
+    },
+    {
+      "name": "Rat Terrier",
+      "weight": 17.5,
+      "size": "Small"
+    },
+    {
+      "name": "Russell Terrier",
+      "weight": 12,
+      "size": "Small"
+    },
+    {
+      "name": "Schipperke",
+      "weight": 13,
+      "size": "Small"
+    },
+    {
+      "name": "Schnoodle",
+      "weight": 12,
+      "size": "Small"
+    },
+    {
+      "name": "Scottish terrier",
+      "weight": 20,
+      "size": "Small"
+    },
+    {
+      "name": "Sealyham Terrier",
+      "weight": 23.5,
+      "size": "Small"
+    },
+    {
+      "name": "Shetland Sheepdog",
+      "weight": 20,
+      "size": "Small"
+    },
+    {
+      "name": "Shiba Inu",
+      "weight": 20,
+      "size": "Small"
+    },
+    {
+      "name": "Shih Tzu",
+      "weight": 12.5,
+      "size": "Small"
+    },
+    {
+      "name": "Smooth Fox Terrier",
+      "weight": 16.5,
+      "size": "Small"
+    },
+    {
+      "name": "Swedish Vallhund",
+      "weight": 27.5,
+      "size": "Small"
+    },
+    {
+      "name": "Teddy Roosevelt Terrier",
+      "weight": 16,
+      "size": "Small"
+    },
+    {
+      "name": "Tibetan Spaniel",
+      "weight": 12,
+      "size": "Small"
+    },
+    {
+      "name": "Tibetan Terrier",
+      "weight": 24,
+      "size": "Small"
+    },
+    {
+      "name": "Welsh Terrier",
+      "weight": 20,
+      "size": "Small"
+    },
+    {
+      "name": "West Highland White Terrier",
+      "weight": 17.5,
+      "size": "Small"
+    },
+    {
+      "name": "Wire Fox Terrier",
+      "weight": 16.5,
+      "size": "Small"
+    },
+    {
+      "name": "Airedale Terrier",
+      "weight": 60,
+      "size": "Medium"
+    },
+    {
+      "name": "Alaska Klee Kai",
+      "weight": 20.5,
+      "size": "Medium"
+    },
+    {
+      "name": "American English Coonhound",
+      "weight": 55,
+      "size": "Medium"
+    },
+    {
+      "name": "American Foxhound",
+      "weight": 65,
+      "size": "Medium"
+    },
+    {
+      "name": "American Leopard Hound",
+      "weight": 57.5,
+      "size": "Medium"
+    },
+    {
+      "name": "American Staffordshire Terrier",
+      "weight": 55,
+      "size": "Medium"
+    },
+    {
+      "name": "American Water Spaniel",
+      "weight": 35,
+      "size": "Medium"
+    },
+    {
+      "name": "Appenzeller Sennenhund",
+      "weight": 59,
+      "size": "Medium"
+    },
+    {
+      "name": "Australian Cattle Dog",
+      "weight": null,
+      "size": "Medium"
+    },
+    {
+      "name": "Australian Kelpie",
+      "weight": null,
+      "size": "Medium"
+    },
+    {
+      "name": "Australian Shepherd",
+      "weight": 52.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Australian Stumpy Tail Cattle Dog",
+      "weight": 38.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Barbado da Terceira",
+      "weight": 53,
+      "size": "Medium"
+    },
+    {
+      "name": "Barbet",
+      "weight": 50,
+      "size": "Medium"
+    },
+    {
+      "name": "Basset Fauve de Bretagne",
+      "weight": 31,
+      "size": "Medium"
+    },
+    {
+      "name": "Basset Hound",
+      "weight": 52.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Bavarian Mountain Scent Hound",
+      "weight": null,
+      "size": "Medium"
+    },
+    {
+      "name": "Bearded Collie",
+      "weight": 50,
+      "size": "Medium"
+    },
+    {
+      "name": "Bergamasca Sheepdog",
+      "weight": 70.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Bluetick Coonhound",
+      "weight": 62.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Bohemian Shepherd",
+      "weight": 48.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Border Collie",
+      "weight": 42.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Boykin Spaniel",
+      "weight": 32.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Braque du Bourbonnais",
+      "weight": 44,
+      "size": "Medium"
+    },
+    {
+      "name": "Braque Francais Pyrenean",
+      "weight": 47.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Brittany",
+      "weight": 35,
+      "size": "Medium"
+    },
+    {
+      "name": "Bull Terrier",
+      "weight": 60,
+      "size": "Medium"
+    },
+    {
+      "name": "Bulldog",
+      "weight": 45,
+      "size": "Medium"
+    },
+    {
+      "name": "Canaan Dog",
+      "weight": 45,
+      "size": "Medium"
+    },
+    {
+      "name": "Carolina Dog",
+      "weight": 45,
+      "size": "Medium"
+    },
+    {
+      "name": "Chinese Shar-Pei",
+      "weight": 52.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Chow Chow",
+      "weight": 57.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Cirneco dell'Etna",
+      "weight": 21.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Clumber Spaniel",
+      "weight": null,
+      "size": "Medium"
+    },
+    {
+      "name": "Collie",
+      "weight": 62.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Croatian Sheepdog",
+      "weight": 36.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Czechoslovakian Vlcak",
+      "weight": 50.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Dalmatian",
+      "weight": 52.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Deutscher Wachtelhund",
+      "weight": 47.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Drentsche Patrijshond",
+      "weight": 60.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Drever",
+      "weight": 37.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Dutch Shepherd",
+      "weight": 58.5,
+      "size": "Medium"
+    },
+    {
+      "name": "English Cocker Spaniel",
+      "weight": 30,
+      "size": "Medium"
+    },
+    {
+      "name": "English Foxhound",
+      "weight": 67.5,
+      "size": "Medium"
+    },
+    {
+      "name": "English Setter",
+      "weight": 62.5,
+      "size": "Medium"
+    },
+    {
+      "name": "English Springer Spaniel",
+      "weight": 45,
+      "size": "Medium"
+    },
+    {
+      "name": "Entlebucher Mountain Dog",
+      "weight": 52.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Eurasier",
+      "weight": null,
+      "size": "Medium"
+    },
+    {
+      "name": "Field Spaniel",
+      "weight": 42.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Finnish Lapphund",
+      "weight": 43,
+      "size": "Medium"
+    },
+    {
+      "name": "Finnish Spitz",
+      "weight": 26.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Flat-Coated Retriever",
+      "weight": 65,
+      "size": "Medium"
+    },
+    {
+      "name": "French Spaniel",
+      "weight": 55,
+      "size": "Medium"
+    },
+    {
+      "name": "German Pinscher",
+      "weight": 35,
+      "size": "Medium"
+    },
+    {
+      "name": "German Shorthaired Pointer",
+      "weight": 57.5,
+      "size": "Medium"
+    },
+    {
+      "name": "German Wirehaired Pointer",
+      "weight": 60,
+      "size": "Medium"
+    },
+    {
+      "name": "Grand Basset Griffon Vendeen",
+      "weight": 42.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Goldendoodle",
+      "weight": 45,
+      "size": "Medium"
+    },
+    {
+      "name": "Hamiltonstovare",
+      "weight": 57.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Harrier",
+      "weight": 52.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Hokkaido",
+      "weight": 55,
+      "size": "Medium"
+    },
+    {
+      "name": "Icelandic Sheepdog",
+      "weight": 27.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Irish terrier",
+      "weight": 26,
+      "size": "Medium"
+    },
+    {
+      "name": "Japanese Akitainu",
+      "weight": 65,
+      "size": "Medium"
+    },
+    {
+      "name": "Japanese Spitz",
+      "weight": 17.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Jindo",
+      "weight": 40,
+      "size": "Medium"
+    },
+    {
+      "name": "Kai Ken",
+      "weight": 30,
+      "size": "Medium"
+    },
+    {
+      "name": "Karelian Bear Dog",
+      "weight": 46.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Keeshond",
+      "weight": 40,
+      "size": "Medium"
+    },
+    {
+      "name": "Kerry Blue Terrier",
+      "weight": 36.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Kishu Ken",
+      "weight": 45,
+      "size": "Medium"
+    },
+    {
+      "name": "Kromfohrlander",
+      "weight": 27.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Labradoodle",
+      "weight": 70,
+      "size": "Medium"
+    },
+    {
+      "name": "Lagotto Romagnolo",
+      "weight": 29.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Lapponian Herder",
+      "weight": 70,
+      "size": "Medium"
+    },
+    {
+      "name": "Miniature American Shepherd",
+      "weight": 30,
+      "size": "Medium"
+    },
+    {
+      "name": "Mixed Breed",
+      "size": "Medium"
+    },
+    {
+      "name": "Mountain Cur",
+      "weight": 45,
+      "size": "Medium"
+    },
+    {
+      "name": "Mudi",
+      "weight": 23.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Nederlandse Kooikerhondje",
+      "weight": 25,
+      "size": "Medium"
+    },
+    {
+      "name": "Norwegian Buhund",
+      "weight": 33,
+      "size": "Medium"
+    },
+    {
+      "name": "Norwegian Elkhound",
+      "weight": 49,
+      "size": "Medium"
+    },
+    {
+      "name": "Nova Scotia Duck Tolling Retriever",
+      "weight": 42.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Petit Basset Griffon Vendeen",
+      "weight": 32.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Pharaoh Hound",
+      "weight": 50,
+      "size": "Medium"
+    },
+    {
+      "name": "Pitt Bull Terrier",
+      "weight": 60,
+      "size": "Medium"
+    },
+    {
+      "name": "Plott Hound",
+      "size": "Medium"
+    },
+    {
+      "name": "Polish Lowland Sheepdog",
+      "weight": 40,
+      "size": "Medium"
+    },
+    {
+      "name": "Standard Poodle",
+      "weight": 55,
+      "size": "Medium"
+    },
+    {
+      "name": "Porcelaine",
+      "weight": 58.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Portuguese Podengo",
+      "weight": 55,
+      "size": "Medium"
+    },
+    {
+      "name": "Portuguese Pointer",
+      "weight": 47,
+      "size": "Medium"
+    },
+    {
+      "name": "Potuguese Sheepdog",
+      "weight": 48.25,
+      "size": "Medium"
+    },
+    {
+      "name": "Portuguese Water Dog",
+      "weight": 47.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Pudelpointer",
+      "weight": 57.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Puli",
+      "weight": 30,
+      "size": "Medium"
+    },
+    {
+      "name": "Pyrenean Shepherd",
+      "weight": 22.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Samoyed",
+      "weight": 50,
+      "size": "Medium"
+    },
+    {
+      "name": "Schapendoes",
+      "weight": 40.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Segugio Italiano",
+      "weight": 50,
+      "size": "Medium"
+    },
+    {
+      "name": "Shikoku",
+      "weight": 45,
+      "size": "Medium"
+    },
+    {
+      "name": "Siberian Husky",
+      "weight": 47.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Skye Terrier",
+      "weight": 40,
+      "size": "Medium"
+    },
+    {
+      "name": "Slovakian Wirehaired Pointer",
+      "weight": 57.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Slovensky Kopov",
+      "weight": 38.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Small Munsterlander",
+      "weight": 50,
+      "size": "Medium"
+    },
+    {
+      "name": "Soft Coated Wheaten Terrier",
+      "weight": 35,
+      "size": "Medium"
+    },
+    {
+      "name": "Spanish Water Dog",
+      "weight": 40,
+      "size": "Medium"
+    },
+    {
+      "name": "Stabyhoun",
+      "weight": 50,
+      "size": "Medium"
+    },
+    {
+      "name": "Staffordshire Bull Terrier",
+      "weight": 31,
+      "size": "Medium"
+    },
+    {
+      "name": "Standard Schnauzer",
+      "weight": 40,
+      "size": "Medium"
+    },
+    {
+      "name": "Sussex Spaniel",
+      "weight": 40,
+      "size": "Medium"
+    },
+    {
+      "name": "Swedish Lapphund",
+      "weight": 3.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Taiwan Dog",
+      "weight": 5.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Thai Ridgeback",
+      "weight": 55,
+      "size": "Medium"
+    },
+    {
+      "name": "Transylvanian Hound",
+      "weight": 55,
+      "size": "Medium"
+    },
+    {
+      "name": "Treeing Tennessee Brindle",
+      "weight": 40,
+      "size": "Medium"
+    },
+    {
+      "name": "Vizsla",
+      "weight": 52,
+      "size": "Medium"
+    },
+    {
+      "name": "Volpino Italiano",
+      "weight": 12,
+      "size": "Medium"
+    },
+    {
+      "name": "Welsh Springer Spaniel",
+      "weight": 45,
+      "size": "Medium"
+    },
+    {
+      "name": "Whippet",
+      "weight": 32.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Wirehaired Pointing Griffon",
+      "weight": 52.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Wirehaired Vizsla",
+      "weight": 55,
+      "size": "Medium"
+    },
+    {
+      "name": "Working Kelpie",
+      "weight": 44,
+      "size": "Medium"
+    },
+    {
+      "name": "Xoloitzcuintli",
+      "weight": 42.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Yakutian Laika",
+      "weight": 47.5,
+      "size": "Medium"
+    },
+    {
+      "name": "Afghan hound",
+      "weight": 55,
+      "size": "Large"
+    },
+    {
+      "name": "Alaskan Malamute",
+      "weight": 80,
+      "size": "Large"
+    },
+    {
+      "name": "American Bully",
+      "weight": 80,
+      "size": "Large"
+    },
+    {
+      "name": "American Bulldog",
+      "weight": 80,
+      "size": "Large"
+    },
+    {
+      "name": "Azawakh",
+      "weight": 44,
+      "size": "Large"
+    },
+    {
+      "name": "Beauceron",
+      "weight": 90,
+      "size": "Large"
+    },
+    {
+      "name": "Belgian Laekenois",
+      "weight": 60,
+      "size": "Large"
+    },
+    {
+      "name": "Belgian Malinois",
+      "weight": 60,
+      "size": "Large"
+    },
+    {
+      "name": "Belgian Sheepdog",
+      "weight": 60,
+      "size": "Large"
+    },
+    {
+      "name": "Belgian Tervuren",
+      "weight": 60,
+      "size": "Large"
+    },
+    {
+      "name": "Berger Picard",
+      "weight": 60,
+      "size": "Large"
+    },
+    {
+      "name": "Black and Tan Coonhound",
+      "weight": 87.5,
+      "size": "Large"
+    },
+    {
+      "name": "Black Russian Terrier",
+      "weight": 105,
+      "size": "Large"
+    },
+    {
+      "name": "Bloodhound",
+      "weight": 95,
+      "size": "Large"
+    },
+    {
+      "name": "Borzoi",
+      "weight": 82.5,
+      "size": "Large"
+    },
+    {
+      "name": "Bouvier des Flandres",
+      "weight": 90,
+      "size": "Large"
+    },
+    {
+      "name": "Boxer",
+      "weight": 72.5,
+      "size": "Large"
+    },
+    {
+      "name": "Bracco Italiano",
+      "weight": 72.5,
+      "size": "Large"
+    },
+    {
+      "name": "Briard",
+      "weight": 77.5,
+      "size": "Large"
+    },
+    {
+      "name": "Cane Corso",
+      "size": "Large"
+    },
+    {
+      "name": "Catahoula Leopard Dog",
+      "weight": 72.5,
+      "size": "Large"
+    },
+    {
+      "name": "Central Asian Shepherd Dog",
+      "weight": 99,
+      "size": "Large"
+    },
+    {
+      "name": "Chesapeake Bay Retriever",
+      "weight": 67.5,
+      "size": "Large"
+    },
+    {
+      "name": "Chinook",
+      "weight": 70,
+      "size": "Large"
+    },
+    {
+      "name": "Curly-Coated Retriever",
+      "weight": 77.5,
+      "size": "Large"
+    },
+    {
+      "name": "Doberman Pinscher",
+      "weight": 80,
+      "size": "Large"
+    },
+    {
+      "name": "Dogo Argentino",
+      "weight": 90,
+      "size": "Large"
+    },
+    {
+      "name": "Estrela Mountain Dog",
+      "weight": 104.5,
+      "size": "Large"
+    },
+    {
+      "name": "German Longhaired Pointer",
+      "weight": 67.5,
+      "size": "Large"
+    },
+    {
+      "name": "German Shepherd Dog",
+      "weight": 70,
+      "size": "Large"
+    },
+    {
+      "name": "Giant Schnauzer",
+      "weight": 70,
+      "size": "Large"
+    },
+    {
+      "name": "Golden Retriever",
+      "weight": 65,
+      "size": "Large"
+    },
+    {
+      "name": "Goldador",
+      "weight": 70,
+      "size": "Large"
+    },
+    {
+      "name": "Gordon Setter",
+      "weight": 62.5,
+      "size": "Large"
+    },
+    {
+      "name": "Greyhound",
+      "weight": 65,
+      "size": "Large"
+    },
+    {
+      "name": "Hanoverian Scenthound",
+      "weight": 89,
+      "size": "Large"
+    },
+    {
+      "name": "Hovawart",
+      "weight": 77.5,
+      "size": "Large"
+    },
+    {
+      "name": "Ibizan Hound",
+      "weight": 47.5,
+      "size": "Large"
+    },
+    {
+      "name": "Irish Red and White Setter",
+      "weight": 47.5,
+      "size": "Large"
+    },
+    {
+      "name": "Irish Setter",
+      "weight": 65,
+      "size": "Large"
+    },
+    {
+      "name": "Irish Water Spaniel",
+      "weight": 56.5,
+      "size": "Large"
+    },
+    {
+      "name": "Komondor",
+      "weight": 90,
+      "size": "Large"
+    },
+    {
+      "name": "Kuvasz",
+      "weight": 92.5,
+      "size": "Large"
+    },
+    {
+      "name": "Labrador Retriever",
+      "weight": 67.5,
+      "size": "Large"
+    },
+    {
+      "name": "Old English Sheepdog",
+      "weight": 80,
+      "size": "Large"
+    },
+    {
+      "name": "Otterhound",
+      "weight": 97.5,
+      "size": "Large"
+    },
+    {
+      "name": "Perro de Presa Canario",
+      "weight": 97,
+      "size": "Large"
+    },
+    {
+      "name": "Pointer",
+      "weight": 60,
+      "size": "Large"
+    },
+    {
+      "name": "Rafeiro do Alentejo",
+      "weight": 104.5,
+      "size": "Large"
+    },
+    {
+      "name": "Redbone Coonhound",
+      "weight": 57.5,
+      "size": "Large"
+    },
+    {
+      "name": "Rhodesian Ridgeback",
+      "weight": 77.5,
+      "size": "Large"
+    },
+    {
+      "name": "Rottweiler",
+      "weight": 107.5,
+      "size": "Large"
+    },
+    {
+      "name": "Saluki",
+      "weight": 52.5,
+      "size": "Large"
+    },
+    {
+      "name": "Sloughi",
+      "weight": 42.5,
+      "size": "Large"
+    },
+    {
+      "name": "Slovensky Cuvac",
+      "weight": 82.5,
+      "size": "Large"
+    },
+    {
+      "name": "Tornjak",
+      "weight": 86,
+      "size": "Large"
+    },
+    {
+      "name": "Tosa",
+      "weight": 150,
+      "size": "Large"
+    },
+    {
+      "name": "Treeing Walker Coonhound",
+      "weight": 60,
+      "size": "Large"
+    },
+    {
+      "name": "Weimaraner",
+      "weight": 72.5,
+      "size": "Large"
+    },
+    {
+      "name": "Wetterhoun",
+      "weight": 62.5,
+      "size": "Large"
+    },
+    {
+      "name": "Akita",
+      "weight": 100,
+      "size": "X-Large"
+    },
+    {
+      "name": "Anatolian Shepherd Dog",
+      "weight": 115,
+      "size": "X-Large"
+    },
+    {
+      "name": "Bernese Mountain Dog",
+      "weight": 92.5,
+      "size": "X-Large"
+    },
+    {
+      "name": "Boerboel",
+      "weight": 175,
+      "size": "X-Large"
+    },
+    {
+      "name": "Broholmer",
+      "weight": 120,
+      "size": "X-Large"
+    },
+    {
+      "name": "Bullmastiff",
+      "weight": 115,
+      "size": "X-Large"
+    },
+    {
+      "name": "Caucasian Shepherd Dog",
+      "weight": 84.5,
+      "size": "X-Large"
+    },
+    {
+      "name": "Dogue de Bordeaux",
+      "weight": 104.5,
+      "size": "X-Large"
+    },
+    {
+      "name": "Great Dane",
+      "weight": 142.5,
+      "size": "X-Large"
+    },
+    {
+      "name": "Great Pyrenees",
+      "weight": 92.5,
+      "size": "X-Large"
+    },
+    {
+      "name": "Greater Swiss Mountain Dog",
+      "weight": 112.5,
+      "size": "X-Large"
+    },
+    {
+      "name": "Irish Wolfhound",
+      "weight": 112.5,
+      "size": "X-Large"
+    },
+    {
+      "name": "Leonberger",
+      "weight": 130,
+      "size": "X-Large"
+    },
+    {
+      "name": "Mastiff",
+      "weight": 175,
+      "size": "X-Large"
+    },
+    {
+      "name": "Neapolitan Mastiff",
+      "weight": 130,
+      "size": "X-Large"
+    },
+    {
+      "name": "Newfoundland",
+      "weight": 125,
+      "size": "X-Large"
+    },
+    {
+      "name": "Pyrenean Mastiff",
+      "weight": 180,
+      "size": "X-Large"
+    },
+    {
+      "name": "Romanian Mioritic shepherd Dog",
+      "weight": 115,
+      "size": "X-Large"
+    },
+    {
+      "name": "Saint Bernard",
+      "weight": 150,
+      "size": "X-Large"
+    },
+    {
+      "name": "Scottish Deerhound",
+      "weight": 92.5,
+      "size": "X-Large"
+    },
+    {
+      "name": "Spanish Mastiff",
+      "weight": 170,
+      "size": "X-Large"
+    },
+    {
+      "name": "Tibetan Mastiff",
+      "weight": 110,
+      "size": "X-Large"
+    }
+  ]

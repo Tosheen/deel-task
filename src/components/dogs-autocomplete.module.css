@@ -1,0 +1,64 @@
+.autocompleteWrapper {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.autocompleteWrapper > * + * {
+    margin-top: 0.5rem;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.formGroup label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.formGroup input {
+    display: block;
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+
+.options {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    z-index: 10;
+}
+
+.options li {
+    display: block;
+    border: 1px solid #ccc;
+    border-bottom: none;
+}
+
+.options li:last-child {
+    border-bottom: 1px solid #ccc;
+}
+
+.options li button {
+    display: block;
+    width: 100%;
+    background-color: white;
+    border-radius: 0;
+    padding: 0.5rem;
+    font-size: 0.875rem;
+    text-align: left;
+    outline: none;
+    cursor: pointer;
+}
+
+.options li:hover button,
+.options li.highlighted button {
+    background-color: #ccc;
+}
