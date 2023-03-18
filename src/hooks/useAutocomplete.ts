@@ -118,7 +118,6 @@ export function useAutocomplete(
       }
 
       setHighlightedIndex(nextHighlightedIndex);
-      //handleItemFocus(nextHighlightedIndex);
     }
 
     if (event.key === "Enter") {
