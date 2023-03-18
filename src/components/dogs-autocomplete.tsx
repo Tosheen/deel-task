@@ -8,16 +8,24 @@ import styles from "./dogs-autocomplete.module.css";
 export const DogsAutocomplete = () => {
   const [_breed, setBreed] = React.useState(""); // This state can be used as controlled state for forms etc
 
-  const { value, onChange, items, highlightedIndex, makeSelection, onKeyUp } =
-    useAutocomplete(
-      {
-        minChars: 3,
-        onSelectionChange: (searchKey) => {
-          setBreed(searchKey);
-        },
+  const {
+    value,
+    onChange,
+    items,
+    highlightedIndex,
+    makeSelection,
+    onKeyUp,
+    listRef,
+    onListItemRefAdd,
+  } = useAutocomplete(
+    {
+      minChars: 2,
+      onSelectionChange: (searchKey) => {
+        setBreed(searchKey);
       },
-      dogBreedsFetcher
-    );
+    },
+    dogBreedsFetcher
+  );
 
   return (
     <div className={styles.autocompleteWrapper}>
@@ -30,7 +38,7 @@ export const DogsAutocomplete = () => {
           onKeyUp={onKeyUp}
         />
       </div>
-      <ul className={styles.options}>
+      <ul className={styles.options} ref={listRef}>
         {items.length > 0 &&
           items.map((item, index) => {
             return (
@@ -39,6 +47,7 @@ export const DogsAutocomplete = () => {
                 className={
                   index === highlightedIndex ? styles.highlighted : undefined
                 }
+                ref={onListItemRefAdd}
               >
                 <button
                   onClick={() => {
