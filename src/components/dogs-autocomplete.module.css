@@ -34,6 +34,8 @@
     top: 100%;
     width: 100%;
     z-index: 10;
+    height: 9rem;
+    overflow-y: auto;
 }
 
 .options li {
@@ -56,6 +58,7 @@
     text-align: left;
     outline: none;
     cursor: pointer;
+    margin: 0
 }
 
 .options li:hover button,

@@ -18,10 +18,61 @@ export function useAutocomplete(
   const [items, setItems] = React.useState<string[]>([]);
   const [highlightedIndex, setHighlightedIndex] = React.useState(0);
 
+  const listRef = React.useRef<HTMLUListElement | null>(null);
+  const listItemRef = React.useRef<HTMLLIElement[]>([]);
+
+  const onListItemRefAdd = (element: HTMLLIElement | null) => {
+    if (element != null) {
+      if (listItemRef.current.find((e) => e === element) === undefined) {
+        listItemRef.current.push(element);
+      }
+    }
+  };
+
+  React.useEffect(() => {
+    const hasIOSupport = "IntersectionObserver" in window;
+
+    if (hasIOSupport === false) return;
+
+    let observer = new IntersectionObserver(
+      (elements) => {
+        elements.forEach((element) => {
+          if (element.isIntersecting === false) {
+            element.target.scrollIntoView({
+              block: "nearest",
+            });
+          }
+        });
+      },
+      {
+        root: listRef.current,
+        threshold: 0.5,
+      }
+    );
+
+    if (listRef.current != null) {
+      const optionItem = listItemRef.current[highlightedIndex];
+
+      if (optionItem != null) {
+        observer.observe(optionItem);
+      }
+    }
+
+    return () => {
+      if (observer) {
+        observer.disconnect();
+      }
+    };
+  }, [highlightedIndex]);
+
   const debouncedFetcher = React.useMemo(
     () =>
       debounce(async (searchKey: string) => {
         const results = await fetcher(searchKey);
+        console.log({
+          i: listItemRef.current,
+        });
+        listItemRef.current = [];
         setItems(results);
       }, 200),
     []
@@ -48,23 +99,56 @@ export function useAutocomplete(
     }
   };
 
+  const isVisible = function (element: Element, container: HTMLUListElement) {
+    const { bottom, height, top } = element.getBoundingClientRect();
+    const containerRect = container.getBoundingClientRect();
+
+    return top <= containerRect.top
+      ? containerRect.top - top <= height
+      : bottom - containerRect.bottom <= height;
+  };
+
+  const handleItemFocus = (itemIndex: number) => {
+    if (listRef.current !== null) {
+      const optionItem = listRef.current.querySelector(
+        `li:nth-child(${itemIndex + 1})`
+      );
+
+      if (
+        optionItem != null &&
+        isVisible(optionItem, listRef.current) === false
+      ) {
+        optionItem.scrollIntoView({
+          block: "nearest",
+        });
+      }
+    }
+  };
+
   const onKeyUp = (event: React.KeyboardEvent<HTMLInputElement>) => {
     if (items.length === 0) return;
 
+    let nextHighlightedIndex: number | undefined;
+
     if (event.key === "ArrowUp") {
       if (highlightedIndex > 0) {
-        setHighlightedIndex(highlightedIndex - 1);
+        nextHighlightedIndex = highlightedIndex - 1;
       } else {
-        setHighlightedIndex(items.length - 1);
+        nextHighlightedIndex = items.length - 1;
       }
+      setHighlightedIndex(nextHighlightedIndex);
+      //handleItemFocus(nextHighlightedIndex);
     }
 
     if (event.key === "ArrowDown") {
       if (highlightedIndex < items.length - 1) {
-        setHighlightedIndex(highlightedIndex + 1);
+        nextHighlightedIndex = highlightedIndex + 1;
       } else {
-        setHighlightedIndex(0);
+        nextHighlightedIndex = 0;
       }
+
+      setHighlightedIndex(nextHighlightedIndex);
+      //handleItemFocus(nextHighlightedIndex);
     }
 
     if (event.key === "Enter") {
@@ -81,5 +165,7 @@ export function useAutocomplete(
     highlightedIndex,
     makeSelection,
     onKeyUp,
+    listRef,
+    onListItemRefAdd,
   };
 }
