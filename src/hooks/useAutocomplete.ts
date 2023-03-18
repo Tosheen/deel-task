@@ -42,6 +42,8 @@ export function useAutocomplete(
               block: "nearest",
             });
           }
+
+          observer.unobserve(element.target);
         });
       },
       {
