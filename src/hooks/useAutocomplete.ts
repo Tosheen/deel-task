@@ -69,9 +69,6 @@ export function useAutocomplete(
     () =>
       debounce(async (searchKey: string) => {
         const results = await fetcher(searchKey);
-        console.log({
-          i: listItemRef.current,
-        });
         listItemRef.current = [];
         setItems(results);
       }, 200),
