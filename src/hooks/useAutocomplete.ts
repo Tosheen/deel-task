@@ -99,32 +99,6 @@ export function useAutocomplete(
     }
   };
 
-  const isVisible = function (element: Element, container: HTMLUListElement) {
-    const { bottom, height, top } = element.getBoundingClientRect();
-    const containerRect = container.getBoundingClientRect();
-
-    return top <= containerRect.top
-      ? containerRect.top - top <= height
-      : bottom - containerRect.bottom <= height;
-  };
-
-  const handleItemFocus = (itemIndex: number) => {
-    if (listRef.current !== null) {
-      const optionItem = listRef.current.querySelector(
-        `li:nth-child(${itemIndex + 1})`
-      );
-
-      if (
-        optionItem != null &&
-        isVisible(optionItem, listRef.current) === false
-      ) {
-        optionItem.scrollIntoView({
-          block: "nearest",
-        });
-      }
-    }
-  };
-
   const onKeyUp = (event: React.KeyboardEvent<HTMLInputElement>) => {
     if (items.length === 0) return;
 
@@ -137,7 +111,6 @@ export function useAutocomplete(
         nextHighlightedIndex = items.length - 1;
       }
       setHighlightedIndex(nextHighlightedIndex);
-      //handleItemFocus(nextHighlightedIndex);
     }
 
     if (event.key === "ArrowDown") {
